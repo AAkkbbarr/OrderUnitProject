@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace Application.Order
+{
+    /*public class CreateOrder
+    {
+        Context _context;
+
+        public CreateOrder(Context contex)
+        {
+            _contex = contex;
+        }
+
+
+    }*/
+}

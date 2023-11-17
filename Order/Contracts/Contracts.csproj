@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application\Application.csproj" />
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+    <ProjectReference Include="..\Infrastructura\Infrastructura.csproj" />
+    <ProjectReference Include="..\Order\Order.Api.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Order\" />
+    <Folder Include="OrderItem\" />
+    <Folder Include="Provider\" />
+  </ItemGroup>
+
+</Project>
